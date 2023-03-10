@@ -31,4 +31,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-Thanks to Github Pages, Jekyll, and [Resume Template] (https://github.com/jglovier/resume-template) for making it easy to create a simple, yet effective, online resume.
+Thanks to Github Pages, Jekyll, and [Resume Template](https://github.com/jglovier/resume-template) for making it easy to create a simple, yet effective, online resume.
