@@ -1,5 +1,8 @@
-source "https://rubygems.org"
+# Advanced users only!
+# The following lines are needed if you want to build the page locally
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
 
-gem 'github-pages'
-# this gem provides regeneration support improvements on Windows
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+# Experts only!
+# Edit the following line for local testing with custom versions of the theme
+# gem 'cover-card', path: "../cover-card"
