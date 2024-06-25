@@ -20,7 +20,7 @@ linkedin: 'joseph-c-lepis'
 # instagram: 'myinsta'
 #pinterest: 'mypinterest'
 # youtube: 'myyoutube'
-github-user: 'jlepis'
+github: 'jlepis'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
@@ -37,7 +37,7 @@ medium:  'jcl2007'
 email: 'jlepis2010@gmail.com'
 # messenger: 'myfbchat'
 
-social-links-order: [github-user, linkedin, medium, email]
+social-links-order: [github, linkedin, medium, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -87,7 +87,7 @@ social-links:
   - name: pinterest
     url-pattern: pinterest.com/__USERNAME__
 
-  - name: github-user
+  - name: github
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
 
