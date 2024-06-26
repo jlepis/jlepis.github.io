@@ -30,6 +30,7 @@ github: 'jlepis'
 #reddit: ''
 #rubygems: ''
 medium:  'jcl2007'
+resume: 'something.pdf'
 # tumblr: 'mytumblr'
 # weibo: 'myweibo'
 # vk: 'myvk'
@@ -59,6 +60,10 @@ social-links-order: [github, linkedin, medium, email]
 #     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
 #     - **optional**
 social-links:
+  - name: resume
+    url-pattern: joseph-c-lepis.com/__USERNAME__
+    icon-class: fab fa-2x fa-creative-commons-share
+
   - name: facebook
     url-pattern: facebook.com/__USERNAME__
     icon-class: fab fa-2x fa-facebook-f
