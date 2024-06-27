@@ -6,7 +6,10 @@ export async function onRequest(context) {
   const origin = context.request.headers.get('Origin');
   const allowedOrigins = ['https://background.jlepis2010.workers.dev'];
 
-  console.log("here?")
+  console.log('Request URL:', context.request.url);
+  console.log('Request method:', context.request.method);
+  console.log('Request headers:', Object.fromEntries(context.request.headers));
+
   if (origin && allowedOrigins.includes(origin)) {
     if (context.request.method === 'OPTIONS') {
       return new Response(null, {
