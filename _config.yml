@@ -5,6 +5,9 @@ remote_theme: epidrome/cover-card@main
 title: 'Joseph C. Lepis'
 description: 'I build software teams.'
 
+include:
+  - functions
+  
 # Images
 # avatar: 'avatar.jpg'
 avatar: 'headshot.png'
